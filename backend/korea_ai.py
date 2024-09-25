@@ -12,7 +12,7 @@ def stream_chat_response(prompt):
     # Prepare the curl command
     curl_command = [
         "curl",
-        "-X", "POST", "https://polygon.us.gaianet.network/v1/chat/completions",
+        "-X", "POST", "https://metamask.us.gaianet.network/v1/chat/completions",
         "-H", "accept: application/json",
         "-H", "Content-Type: application/json",
         "-d", json.dumps({
